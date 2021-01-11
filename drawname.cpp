@@ -160,7 +160,7 @@ void drawOxy(){
     {
         line(oy[0][i], oy[1][i], oy[0][i+1], oy[1][i+1]);
     }
-    
+    delay(20)
 	outtextxy(w-5,h/2+4, "x");
 	outtextxy(w/2-10,h/6,"y");
 	outtextxy(w/2-10,h/2+4,"O");
